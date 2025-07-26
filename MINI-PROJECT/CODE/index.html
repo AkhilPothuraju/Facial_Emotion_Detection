@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Emotion Detection</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ff9900, #ffffff);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        
+        .header {
+            background: linear-gradient(to right, #b37a00, #ffd000);
+            color: white;
+            padding: 20px 50px;
+            font-size: 24px;
+            font-weight: 600;
+            text-align: left;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .content {
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            font-size: 28px;
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #0e0d0df0;
+            line-height: 1.6;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(to right, #ff7b00, #b35700);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            outline: none;
+            box-shadow: 0px 4px 10px rgba(255, 170, 0, 0.3);
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(to right, #b35a00, #802b00);
+        }
+
+        .loading {
+            display: none;
+            margin-top: 15px;
+            font-size: 16px;
+            color: #ff8c00;
+            font-weight: 500;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(to right, #ffffff, #cce5ff);
+            font-size: 14px;
+            color: #666;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.05);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Facial Emotion Detection</div>
+    <div class="container">
+        <div class="content">
+            <h2>Analyze Facial Expressions</h2>
+            <p>Effortlessly detect and analyze emotions such as happiness, sadness, anger, surprise, and more with our advanced facial recognition technology. Simply click to start and let our tool instantly identify facial expressions and classify them into emotional categories. Ideal for businesses, entertainment, and mental health applications, our tool provides accurate, real-time insights to enhance user experience and decision-making.</p>
+        </div>
+        <button class="btn" onclick="runScript()">Start Detection</button>
+        <p class="loading" id="loading">Detecting emotions...</p>
+    </div>
+    <div class="footer">
+        © 2025 Facial Emotion Detection | Emotion analysis for real-time insights.
+    </div>
+
+    <script>
+        function runScript() {
+            document.getElementById("loading").style.display = "block";
+
+            fetch('/run-script')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("loading").style.display = "none";
+                    alert(data);  // You can display a success message here
+                })
+                .catch(error => {
+                    document.getElementById("loading").style.display = "none";
+                    alert("Error running script!");
+                });
+        }
+    </script>
+
+</body>
+</html>
