@@ -99,3 +99,9 @@ Deploy full-stack version with backend API
 
 This project is licensed under the MIT License – see the [LICENSE](https://github.com/AkhilPothuraju/Facial_Emotion_Detection/blob/main/LICENSE) file for details.
 
+---
+
+## Author
+Akhil Pothuraju
+📫 akhilpothuraju1234@gmail.com
+🔗 LinkedIn
