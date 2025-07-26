@@ -13,7 +13,7 @@ A real-time facial emotion detection system that uses deep learning to classify 
 - 😀 Classifies emotions like **Happy**, **Sad**, **Angry**, **Surprised**, **Neutral**, and more
 - 🧠 Deep Learning powered (CNN/ResNet-based model)
 - 📊 Clean UI for emotion display and confidence level
-- 💡 Can be integrated into chatbots, feedback systems, or smart surveillance
+- 💡 Can be integrated into chatbots, feedback systems, or smart surveillance.
 
 ---
 
