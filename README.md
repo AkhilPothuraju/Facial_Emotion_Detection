@@ -106,3 +106,14 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
 **Akhil Pothuraju**  
 📫 [akhilpothuraju1234@gmail.com](mailto:akhilpothuraju1234@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/akhil-pothuraju-9997ba259)
+
+---
+**Support**
+If you like this project, consider giving it a ⭐ on GitHub!
+
+Let me know if you'd like to:
+- Add example images or screenshots,
+- Include video demo links,
+- Support multi-language or mobile features.
+
+I can also help generate badges or improve styling further if needed.
