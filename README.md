@@ -115,5 +115,3 @@ Let me know if you'd like to:
 - Add example images or screenshots,
 - Include video demo links,
 - Support multi-language or mobile features.
-
-I can also help generate badges or improve styling further if needed.
