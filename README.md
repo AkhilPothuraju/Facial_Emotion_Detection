@@ -101,7 +101,8 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
 
 ---
 
-## Author
-Akhil Pothuraju
-📫 akhilpothuraju1234@gmail.com
-🔗 LinkedIn
+## 🙋‍♂️ Author
+
+**Akhil Pothuraju**  
+📫 [akhilpothuraju1234@gmail.com](mailto:akhilpothuraju1234@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/akhil-pothuraju-9997ba259)
